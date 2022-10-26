@@ -1,13 +1,24 @@
-### HEY visitor :wave:
+# Sudoku Solver
 
-I am a 15 year old boy who is interested in AI and Machine Learning as well as Data Science. Also in every new technology that is making our lives easier!
-- 🔭 I’m currently working on Computer Vision and NLP.
-- 🌱 I’m currently learning Data Structures and Algorithms
-- 👯 I’m looking to collaborate on a tech project integrating IoT and Machine Learning
-- ⚡ Fun question: Do you think machine learning would be that revolutionary if stereotypes didn't exist? :thinking:
+This program serves as a way to calculate the solution to any 9x9 sudoku puzzle via webcam.
+It identifies the puzzle through the webcam, processes it uses OpenCV, runs against a neural network to predict the digits, 
+and runs an efficient sudoku solver to determine the answer. It then displays the answer on the same frame if it is solvable.
 
+Demonstration: [YouTube Video](https://www.youtube.com/watch?v=O6WfZRyatcY)
 
+<img src="test_imgs/screen.png"> 
 
+Tested using `Python 3.6` (newer versions may or may not work)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lopa-ok)](https://github.com/anuraghazra/github-readme-stats)
+Relevant Packages:
+
+- `opencv-python`: 4.3.0.36
+- `numpy`: 1.19.1
+- `tensorflow`: 2.2.0
+- `sklearn`: 0.0
+- `keras`: 2.3.1
+
+```bash
+python app.py
+```
 
