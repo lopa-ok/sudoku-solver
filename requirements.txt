@@ -1,0 +1,6 @@
+numpy==1.19.1
+opencv_contrib_python==4.7.0.72
+opencv_python==4.3.0.36
+tensorflow==2.2.0
+keras==2.3.1
+sklearn==0.0
