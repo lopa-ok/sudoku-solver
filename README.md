@@ -19,7 +19,7 @@
 <p>2. install the necessary libraries</p>
 
 ```
-pip install -r requirements. txt
+pip install -r requirements.txt
 ```
 
 <p>3. you are done just run the file</p>
